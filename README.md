@@ -82,7 +82,7 @@ Biar sinkron antar-jendela aplikasi pas di-run barengan, data kita lempar ke dat
 
 ### ⚡ Langkah Eksekusi
 1. *Clone* repositori tim kita ini lewat git bash atau terminal:  
-   `git clone https://github.com/USERNAME_KAMU/CarbonPulse.git`
+   `git clone https://github.com/dezel21/CarbonPulse.git`
 2. Buka folder projeknya via **IntelliJ IDEA**.
 3. Import file database yang udah disiapin di grup WA ke phpMyAdmin kalian.
 4. **PENTING:** Masuk ke *Run Configurations* `Main.java` di IntelliJ, klik *Modify Options*, terus centang **"Allow multiple instances"**. Ini wajib biar bisa nge-run aplikasi 2 kali secara barengan buat nyobain simulasi transaksi antar-akun secara *real-time*.
