@@ -1,24 +1,18 @@
-<div align="center">
-
 # 🌿 CarbonPulse
 ### *Next-Generation Carbon Trading Desktop Simulator*
 
-[![Java Version](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/)
-[![MySQL](https://img.shields.io/badge/MySQL-3307-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Architecture](https://img.shields.io/badge/Architecture-MVC-green?style=for-the-badge)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-[![Status](https://img.shields.io/badge/UAS-Project%20SI-blue?style=for-the-badge)](https://github.com/)
+![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-3307-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Architecture](https://img.shields.io/badge/Architecture-MVC-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/UAS-Project%20SI-blue?style=for-the-badge)
 
-<p align="center">
-  <b>Tugas Besar Pemrograman Berorientasi Objek (PBO)</b> <br />
-  Simulasi Bursa Perdagangan Emisi Karbon Global berbasis Desktop (Java Swing + MySQL). <br />
-  Udah support transaksi multi-user secara <b>real-time</b> biar pas demo di depan dosen gak nge-bug!
-</p>
+Proyek Akhir Pemrograman Berorientasi Objek (PBO)
+Simulasi Bursa Perdagangan Emisi Karbon Global berbasis Desktop (Java Swing + MySQL).
+Udah support transaksi multi-user secara real-time.
 
 ---
 `S1 Sistem Informasi` • `UPN "Veteran" Jakarta` • `Semester 4 (2026)`
 ---
-
-</div>
 
 ## 📌 Kenapa Kita Bikin CarbonPulse?
 
