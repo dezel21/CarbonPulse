@@ -64,23 +64,31 @@ Projek ini anti-crash karena udah dilengkapi penanganan eror yang ketat lewat *C
 
 ## 🗄️ Relasi Skema Database (MySQL)
 
-Biar sinkron antar-jendela aplikasi pas di-run barengan, data kita lempar ke database `db_carbonpulse` pake struktur ringkas ini:
-[ users ]
-│ (1)
-│
-├─── (1) ── [ entitas_status ] -> (Nampung Saldo Finansial & Sisa Kuota)
-│
-└─── (N) ── [ riwayat_bursa ]  -> (Ngelock orderan PENDING / SUCCESSED)
+Biar sinkron antar-jendela aplikasi pas di-run barengan, data kita lempar ke database `db_carbonpulse` dengan skema relasi tabel berikut:
+
+| Tabel Asal | Hubungan | Tabel Tujuan | Keterangan |
+| :--- | :---: | :--- | :--- |
+| **users** | 1 : 1 | **entitas_status** | Menyimpan data Saldo Finansial & Sisa Kuota Karbon |
+| **users** | 1 : N | **riwayat_bursa** | Mencatat antrean orderan dengan status PENDING / SUCCESSED |
+
 ---
 
 ## 🚀 Cara Run Projeknya di Laptop Kalian
 
-### 🧱 Prasyarat Awal:
+### 🧱 Prasyarat Awal
 *   Udah instal JDK 17 atau yang terbaru.
 *   Aplikasi XAMPP Control Panel udah jalan (Port MySQL harus diganti ke **3307** ya, biar gak bentrok!).
 *   *Library* `mysql-connector-j-9.7.0.jar` udah di-add ke *Dependencies Module* IntelliJ masing-masing.
 
-### ⚡ Langkah Eksekusi:
-1. *Clone* repositori tim kita ini:
-   ```bash
-   git clone [https://github.com/USERNAME_KAMU/CarbonPulse.git](https://github.com/USERNAME_KAMU/CarbonPulse.git)
+### ⚡ Langkah Eksekusi
+1. *Clone* repositori tim kita ini lewat git bash atau terminal:  
+   `git clone https://github.com/USERNAME_KAMU/CarbonPulse.git`
+2. Buka folder projeknya via **IntelliJ IDEA**.
+3. Import file database yang udah disiapin di grup WA ke phpMyAdmin kalian.
+4. **PENTING:** Masuk ke *Run Configurations* `Main.java` di IntelliJ, klik *Modify Options*, terus centang **"Allow multiple instances"**. Ini wajib biar bisa nge-run aplikasi 2 kali secara barengan buat nyobain simulasi transaksi antar-akun secara *real-time*.
+5. Klik tombol hijau **Run** dan selamat nyobain hasil begadang kita!
+
+---
+<div align="center">
+  <sub>CarbonPulse © 2026 • Projek UAS PBO Kelompok S1 Sistem Informasi UPNVJ.</sub>
+</div>
