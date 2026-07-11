@@ -9,9 +9,8 @@
 [![Status](https://img.shields.io/badge/UAS-Project%20SI-blue?style=for-the-badge)](https://github.com/)
 
 <p align="center">
-  <b>Tugas Besar Pemrograman Berorientasi Objek (PBO)</b> <br />
+  <b>Proyek Akhir Pemrograman Berorientasi Objek (PBO)</b> <br />
   Simulasi Bursa Perdagangan Emisi Karbon Global berbasis Desktop (Java Swing + MySQL). <br />
-  Udah support transaksi multi-user secara <b>real-time</b> biar pas demo di depan dosen gak nge-bug!
 </p>
 
 ---
@@ -39,7 +38,7 @@ Nah, kalau kuota karbon si Korporasi ini abis akibat kebanyakan produksi, mereka
 | 👑 **Project Manager & Data Structure & Engine Lead** (Dzulhas Syahara Muthahari) | Ngoding core engine bursa, nge-sort antrean *Priority Queue*, sama ngurus logika *Comparable*.         |
 | 🛡️ **DB Lead** (Al-Ghifari Rahbani Ramadhan)                                     | Ngurusin skema MySQL XAMPP (Port 3307), *Multi-Instance Run*, sama *logic* auth login.         |
 | ⚙️ **OOP Architecture Lead** (Muhammad Fawwaz Ferdian Satriadi)                   | Bikin struktur blueprint kelas induk, anak, inheritance, sama rumus polimorfisme pajak. |
-| 🎨 **Front-End & Exception Lead** (Al-Ghifari Rahbani Ramadhan)                   | Desain UI Java Swing (Dashboard, Bursa, Audit), sama nge-handle *Custom Exception Handling*.   |
+| 🎨 **Front-End & Exception Lead** (Bagas Malik Ibrahim)                           | Desain UI Java Swing (Dashboard, Bursa, Audit), sama nge-handle *Custom Exception Handling*.   |
 
 ---
 
